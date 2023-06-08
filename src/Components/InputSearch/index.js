@@ -5,7 +5,7 @@ const InputSearch = ({ setValueSearch, valuesearch }) => {
         id="name"
         onChange={(event) => setValueSearch(event.target.value)}
         value={valuesearch}
-      ></input>
+      />
     )
 }
 
